@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportik</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="application/javascript" src="./scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li class="logo categ" id="all">Sportik</li>
+                    <li class="categ" id="tennis">Теннис</li>
+                    <li class="categ" id="football">Футбол</li>
+                    <li class="categ" id="basketball">Баскетбол</li>
+                    <li class="categ" id="home">Спорт дома</li>
+                    <li class="search">Поиск:</li>
+                    <li><input type="text" placeholder="Введите наименование товара" id="search" /></li>
+                    <li>
+                        <div class="fixed" id="basket_img">
+                            <img src="./images/Pocket.png" alt="Корзина" width="40px" height="40px" />
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+           
+        <div class="basket" id="basket">
+            <h1>Содержимое корзины:</h1>
+            <table class="table" id="table">
+                <tr>
+                    <th>
+                        Товар
+                    </th>
+                    <th>
+                        Количество
+                    </th>
+                    <th>
+                        Цена общ.
+                    </th>
+                    <th>
+                        &nbsp
+                    </th>
+                </tr>
+            </table>
+        </div>
+        
+    </main>
+</body>
+
+</html>
